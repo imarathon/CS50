@@ -4,10 +4,10 @@
 usr_inpt = input ("Please type a phrase: ")
 print("")
 
-li = list(usr_inpt.split(" "))
+def dotVille():
+    li = list(usr_inpt.split(" "))
+    print(*li, sep="...")
 
 print("Here is your phrase with dots in between your words.")
-print(*li, sep=("..."))
+dotVille()
 
-def splt_phrs ()
-    return 
