@@ -113,7 +113,6 @@ main()
 #return
 from re import X
 
-
 def main():
     x = int(input("Enter a number to square it: "))
     print("Your number squared is: ", square(x))
