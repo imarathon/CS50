@@ -118,8 +118,8 @@ def main():
     print("Your number squared is: ", square(x))
 
 def square(n):
-    return pow (n, 2)
-#    return n * n
+    return n * n
+#    return pow (n, 2)
 #    return n ** 2
 
 main()
