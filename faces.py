@@ -5,8 +5,8 @@
 # as by passing a str of your own as an argument to input. Be sure to call main at the bottom of your file.
 
 def main():
-    user = str(input("Please enter some text, and make sure to include a smiley or frowny face. :) or :( : "))
-    print("You typed: ", user)
-
+    user = str(input("Please type Hello and a smiley or frowny face. :) or :(. "))
+    print("You typed: ", user.replace(":)", "\U0001F642")
+        .replace(":(", "\U0001F641"))
 
 main()
