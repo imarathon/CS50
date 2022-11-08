@@ -8,6 +8,6 @@ def dotVille():
     li = list(usr_inpt.split(" "))
     print(*li, sep="...")
 
-print("Here is your phrase with dots in between your words.")
+print("Here is your phrase with dots in between your words.", dotVille())
 dotVille()
 
