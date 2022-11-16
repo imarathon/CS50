@@ -7,6 +7,6 @@ def main():
     joules = 300000000
     result = user * (joules**2)
 
-    print(round(user), "Kilograms", "equals", result, "in Joules.")
+    print(round(user), "Kilograms equals", result, "in Joules.")
 
 main()
