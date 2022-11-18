@@ -6,7 +6,7 @@
 
 def main():
     user = str(input("Please type Hello and a smiley or frowny face. :) or :(. "))
-    print("You typed: ", user.replace(":)", "\U0001F642")
-        .replace(":(", "\U0001F641"))
+    print("You typed:",user.replace(":)", "\U0001F642")
+        .replace(":(","\U0001F641"))
 
 main()

@@ -26,7 +26,7 @@ def is_even(n):
 def is_even(n):
     return True if n % 2 == 0 else False
 '''
-# Even shorter comment
+# Even shorter function
 def is_even(n):
     return n % 2 == 0
 
